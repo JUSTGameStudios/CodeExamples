@@ -13,7 +13,7 @@ import exception.ConfigException;
  * Class Description: Class that communicates with the TaxReturnDB class as a
  * proxy to pass information utilized in communicating with the database.
  *
- * @author Tristen Kreutz, Cesar Guzman, Jesse Goerzen
+ * @author Cesar Guzman
  *
  */
 public final class TaxReturnManager {
