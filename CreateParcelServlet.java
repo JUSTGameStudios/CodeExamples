@@ -22,15 +22,11 @@ import util.cesar.Debugger;
 /**
  * Servlet for creating and sending a message.
  * 
- * @author Cesar Guzman, Taylor Hanlon
+ * @author Cesar Guzman
  */
 @WebServlet("/parcel/create")
 @MultipartConfig(fileSizeThreshold = 0, maxFileSize = 1024 * 1024 * 25, maxRequestSize = 1024 * 1024 * 25 * 10) //0mb, 25mb, 10x 25mb
 public final class CreateParcelServlet extends HttpServlet {
-
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 4807630350769183535L;
 
 	/**
